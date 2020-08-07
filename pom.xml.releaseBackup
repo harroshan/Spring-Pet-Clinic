@@ -15,7 +15,7 @@
     </parent>
     <groupId>harroshan.spring</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>pet-clinic</name>
     <description>Spring Pet Clinic Cloning</description>
 
@@ -33,18 +33,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-release-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <goals>install</goals>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goals>install</goals>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
-<!--    <scm>-->
-<!--        <developerConnection>scm:git:https://github.com/harroshan/Spring-Pet-Clinic.git</developerConnection>-->
-<!--    </scm>-->
+    <scm>
+        <developerConnection>scm:git:https://github.com/harroshan/Spring-Pet-Clinic.git</developerConnection>
+    </scm>
 
 </project>
